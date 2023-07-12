@@ -1,0 +1,121 @@
+*{
+    font-family:sans-serif;
+}
+
+body{
+    background-image:url('../img/bg.jpg');
+    background-size: cover;
+}
+
+img{
+    width: 10%;
+    height: 10%;
+}
+
+
+#loginform{
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 30%;
+    height: 80%;
+    border-radius: 8px;
+    opacity: 0.96;
+}
+
+h1{
+    position: relative;
+    top: 45px;
+    left: 40px;
+    color: white;
+}
+
+
+input{
+    position: relative;
+    background-color: #2b2929;
+    left: 35px;
+    top: 40px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px;
+    padding-right: 140px;
+    margin: 7px;
+    padding-left: 10px;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.555);
+}
+
+button{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.555);
+    font-weight: bold;
+    top: 50%;
+    left: 43px;
+    border: none;
+    border-radius: 3px;
+    width: 319px;
+    padding: 13px;
+    background-color: red;
+}
+
+label{  
+    position: absolute;
+    color: rgba(255, 255, 255, 0.795);
+    top: 302px;
+    left: 15%;
+    font-size: small;
+}
+
+#rememberme {
+    position: absolute;
+    color: white;
+    top: 59%;
+    left: 9%;
+}
+
+.needhelp{
+    position: absolute;
+    font-size: small;
+    top: 302px;
+    left: 71%;
+    color: rgba(255, 255, 255, 0.795);
+    text-decoration: none;
+}
+
+.newtonetflix{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: small;
+    top: 70%;
+    left: 11%;
+}
+
+.signupnow{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: small;
+    top: 362px;
+    left: 34%;
+    text-decoration:none;
+}
+
+.desc{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.795);
+    font-size:11px;
+    top: 380px;
+    left: 11%;
+
+}
+
+.learn-more{
+    position: absolute;
+    color: blue;
+    font-size:11px;
+    top:406px;
+    left: 42%;
+}
